@@ -4,10 +4,10 @@ import SkillsInfo from '../public/skills.json';
 import NextButton from '../components/nextButton.js';
 
 var data = {
-        labels: ['Python', 'HTML/CSS', 'JavaScript', 'SQL', 'C++/Arduino'],
+        labels: ['Python', 'HTML/CSS', 'JavaScript', 'SQL', 'C++/C/Arduino'],
         datasets: [{
             label: 'Years of Experience',
-            data: [5, 4, 4, 3, 2],
+            data: [5, 4, 4, 2, 4],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
             ],

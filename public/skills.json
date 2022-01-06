@@ -22,6 +22,14 @@
         "when" : "2018 - Present",
         "links" : []
     },
+    
+    {
+        "name" : "C/C++",
+        "where" : "",
+        "desc" : ["Operating Systems, PISA Search Engine, Text Processing from Web Scrapes"],
+        "when" : "2018 - Present",
+        "links" : []
+    },
 
     {
         "name" : "Javascript",
