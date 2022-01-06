@@ -9,7 +9,7 @@ function Projects(props){
             <NavbarMine name="Junming"/>
             <DefaultCard imgs={[]} title="Projects" info={ProjectInfo}/>
             <NextButton prev="/experience" next="/"/>
-            <br/>
+        <br/><br/>
         </div>
     );
 }

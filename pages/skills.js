@@ -32,7 +32,7 @@ function Skills(props){
             <NavbarMine name="Junming"/>
             <DefaultCard imgs={[data]} title="Skills" info={SkillsInfo} />
             <NextButton prev="/" next="/experience"/>
-            <br/>
+            <br/><br/>
         </div>
     )
 }

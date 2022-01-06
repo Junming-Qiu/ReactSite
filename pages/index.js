@@ -10,7 +10,7 @@ export default function Home() {
         <NavbarMine name="Junming"/>
         <BioCard/>
         <NextButton prev="/projects" next="/skills"/>
-        <br/>
+        <br/><br/>
     </div>
  
   )

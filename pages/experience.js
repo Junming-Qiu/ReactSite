@@ -10,7 +10,7 @@ function Experience(props){
           
             <DefaultCard imgs={[]} title="Experiences" info={ExperienceInfo}/>
             <NextButton prev="/skills" next="/projects"/>
-            <br/>
+            <br/><br/>
         </div>
     );
 }
