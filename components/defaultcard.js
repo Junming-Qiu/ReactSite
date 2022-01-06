@@ -21,13 +21,13 @@ function DefaultCard(props){
 
                 <Container>
                     <Row className="cardbody">
-                        {props.imgs.map(function(imgs){
+                        {/* {props.imgs.map(function(imgs){
                             return (
                                 <Col>
 
                                 </Col>
                             )
-                        })}
+                        })} */}
                         
                         <Col className="card-text mt-3" >
                             <ul>
