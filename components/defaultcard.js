@@ -44,7 +44,7 @@ function DefaultCard(props){
                                                 {item.desc.map(function(desc){
                                                 return (
                                                     <li>
-                                                        <h6>{desc}</h6>
+                                                        <h6 key={desc}>{desc}</h6>
                                                     </li>
                                                 )
                                                 })}
@@ -53,7 +53,7 @@ function DefaultCard(props){
                                             <Row>
                                                 {item.links.map(function(link){
                                                     return (
-                                                        <a target="_blank" href={link}>Link to Project</a>
+                                                        <a key={link} rel="noreferrer" target="_blank" href={link}>Link to Project</a>
                                                     )
                                                 })}
                                             </Row>

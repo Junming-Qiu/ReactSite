@@ -20,9 +20,9 @@ function NavbarMine(props){
                 <Nav.Link href="/projects">Projects</Nav.Link>
                 <Nav.Link href="/">Contact Me</Nav.Link>
                 <NavDropdown title="Outside Links" id="basic-nav-dropdown">
-                  <NavDropdown.Item target="_blank" href="https://github.com/Junming-Qiu">Github</NavDropdown.Item>
+                  <NavDropdown.Item rel="noreferrer" target="_blank" href="https://github.com/Junming-Qiu">Github</NavDropdown.Item>
                 <NavDropdown.Divider/>
-                  <NavDropdown.Item target="_blank" href="https://www.linkedin.com/in/junming-qiu-32b343191/">LinkedIn</NavDropdown.Item>
+                  <NavDropdown.Item rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/junming-qiu-32b343191/">LinkedIn</NavDropdown.Item>
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
