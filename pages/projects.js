@@ -7,8 +7,9 @@ function Projects(props){
     return (
         <div>
             <NavbarMine name="Junming"/>
-            <DefaultCard imgs={[]} title="Projects" info={ProjectInfo}/>
+            <DefaultCard title="Projects" info={ProjectInfo}/>
             <NextButton prev="/experience" next="/"/>
+            <br/>
         </div>
     );
 }

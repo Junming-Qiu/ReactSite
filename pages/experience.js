@@ -8,8 +8,9 @@ function Experience(props){
         <div>
             <NavbarMine name="Junming"/>
           
-            <DefaultCard imgs={[]} title="Experiences" info={ExperienceInfo}/>
+            <DefaultCard title="Experiences" info={ExperienceInfo}/>
             <NextButton prev="/" next="/projects"/>
+            <br/>
         </div>
     );
 }

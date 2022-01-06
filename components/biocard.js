@@ -6,9 +6,10 @@ import Image from "next/image";
 import profilepic from '../public/profile.jpg';
 import bio from '../public/bio.json';
 import Button from "react-bootstrap/Button";
+import {useState} from 'react';
 
 function BioCard(props){
-    
+    const [copied, setCopied] = useState(false)
     return(
         <div>
             <div className="card">
@@ -79,10 +80,13 @@ function BioCard(props){
                         <h6>
                             Contact Me: <Button variant="link" onClick={() => {
                                 navigator.clipboard.writeText(bio.contact)
+                                setCopied(true)
+                                
                                 }}>
                                             {bio.contact}
                                         </Button>
                         </h6>
+                        {copied ? <div>Copied</div> : <div/>}
                     </Row>
                 </Container>
                 </div>
