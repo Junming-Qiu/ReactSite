@@ -1,0 +1,53 @@
+[
+    {
+        "name" : "IT Support Technician",
+        "where" : "Brooklyn, New York",
+        "desc" : 
+            [
+                "Worked closely with the NYU IT team to solve issues regarding university hardware and software.",
+                "Supported faculty online through remote connection and on-campus.",
+                "Managed software upgrades in the NYU system, compatibility issues, as well as setting up hardware on-campus."
+            ],
+        "when" : "August 2020 - Present",
+        "links" : []
+    },
+
+    {
+        "name" : "Robotics Design Team",
+        "where" : "Brooklyn, New York",
+        "desc" : 
+            [
+                "Worked with the robotics team’s software subteam to develop and implement code to remotely communicate to a robot.",
+                "Had a major role in writing and developing code to detect position of robot with high precision via Apriltags and computer vision.",
+                "SCRUM experience: Participated in all sprint plannings, reviews, and retrospectives."
+            ],
+        "when" : "Sep 2019 - Present",
+        "links" : []
+    },
+
+    {
+        "name" : "Research in Better Clustering for Search Engines with Dr. Torsten Suel",
+        "where" : "Brooklyn, New York",
+        "desc" : 
+            [
+                "Developed and implemented a project to determine the effectiveness of several clustering methods to improve sharding for selective search.",
+                "Utilized natural language processing (BERT) and SLURM on the NYU high performance cluster to process and transform documents with new information.",
+                "Implemented and modified algorithms such as k-means clustering and bipartite graph bisection to improve clustering"
+            ],
+        "when" : "Jun 2021 - Aug 2021",
+        "links" : []
+    },
+    
+    {
+        "name" : "Private Tutor",
+        "where" : "New York, New York",
+        "desc" : 
+            [
+                "Planned lessons for middle and high school students for test prep.",
+                "Trained in ISEE and SAT tutoring.",
+                "Coordinated with academic counselors and parents to ensure that students were on pace to taking standardized tests."
+            ],
+        "when" : "September 2020 - Present",
+        "links" : []
+    }
+]
