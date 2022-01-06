@@ -33,7 +33,7 @@ function DefaultCard(props){
                             <ul>
                                 {props.info.map(function(item){
                                     return (    
-                                        <Row className="mb-3">
+                                        <Row className="mb-3" key={item.name}>
                                             <Row><h5>{item.name}</h5></Row>
                                             <Row>
                                                 <Col><h6>{item.when}</h6></Col>
@@ -43,8 +43,8 @@ function DefaultCard(props){
                                             <Row>
                                                 {item.desc.map(function(desc){
                                                 return (
-                                                    <li>
-                                                        <h6 key={desc}>{desc}</h6>
+                                                    <li key={desc}> 
+                                                        <h6>{desc}</h6>
                                                     </li>
                                                 )
                                                 })}
