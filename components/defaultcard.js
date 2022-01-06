@@ -25,7 +25,7 @@ function DefaultCard(props){
                     <Row className="cardbody">
                         {props.imgs.map(function(imgs){
                             return (
-                                <Col md={{span:10, offset:1}} xl={{span:5, offset:0}}>
+                                <Col key={imgs} md={{span:10, offset:1}} xl={{span:5, offset:0}}>
                                     <Radar 
                                         className="mt-4"
                                         data={imgs}
