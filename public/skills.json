@@ -1,0 +1,47 @@
+[
+    {
+        "name" : "Python",
+        "where" : "",
+        "desc" : ["Django, Flask, OpenCV, Pandas, PyTorch, ROS, Web Sockets, Natural Language Processing"],
+        "when" : "2017 - Present",
+        "links" : []
+    },
+    
+    {
+        "name" : "HTML & CSS",
+        "where" : "",
+        "desc" : ["Creating and designing responsive web pages, integration of web page to database"],
+        "when" : "2018 - Present",
+        "links" : []
+    },
+    
+    {
+        "name" : "Arduino",
+        "where" : "",
+        "desc" : ["Designing and writing Arduino code for motor control and networking"],
+        "when" : "2018 - Present",
+        "links" : []
+    },
+
+    {
+        "name" : "Javascript",
+        "where" : "",
+        "desc" : [
+            "React, NextJS, NodeJS", 
+            "Creating interactive elements on web pages and generating visualizations"
+        ],
+        "when" : "2019 - Present",
+        "links" : []
+    },
+
+    {
+        "name" : "SQL",
+        "where" : "",
+        "desc" : [
+            "SQLite, PostgreSQL", 
+            "Database management for web services"
+        ],
+        "when" : "2020 - Present",
+        "links" : []
+    }
+]

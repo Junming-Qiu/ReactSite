@@ -1,6 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Chart } from 'chart.js/auto'
+import { Radar } from "react-chartjs-2";
 
 // import Carousel from "react-bootstrap/Carousel";
 // import Image from "next/image";
@@ -21,13 +23,33 @@ function DefaultCard(props){
 
                 <Container>
                     <Row className="cardbody">
-                        {/* {props.imgs.map(function(imgs){
+                        {props.imgs.map(function(imgs){
                             return (
-                                <Col>
-
+                                <Col md={{span:10, offset:1}} xl={{span:5, offset:0}}>
+                                    <Radar 
+                                        className="mt-4"
+                                        data={imgs}
+                                        width={500}
+                                        height={500}
+                                        options={{
+                                            responsive: true,
+                                            maintainAspectRatio: false,
+                                            scale: {
+                                                angleLines: {
+                                                    display: false
+                                                },
+                                                suggestedMin: 0,
+                                                suggestedMax: 6,
+                                                ticks : {
+                                                    precision : 0
+                                                }
+                                            }
+                
+                                        }}
+                                    />
                                 </Col>
                             )
-                        })} */}
+                        })}
                         
                         <Col className="card-text mt-3" >
                             <ul>

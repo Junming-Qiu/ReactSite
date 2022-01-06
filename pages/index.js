@@ -9,7 +9,7 @@ export default function Home() {
     <div className="bkground">
         <NavbarMine name="Junming"/>
         <BioCard/>
-        <NextButton prev="/projects" next="/experience"/>
+        <NextButton prev="/projects" next="/skills"/>
         <br/>
     </div>
  
