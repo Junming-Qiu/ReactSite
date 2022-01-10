@@ -2,10 +2,10 @@ import Button from "react-bootstrap/Button";
 
 function NextButton(props){
     return(
-        <div className="nextbuttondiv">
+        <div className="tw-text-center">
             <br/>
-            <Button href={props.prev} className="nextbutton" size="lg" variant="dark">Prev</Button>{' '}
-            <Button href={props.next} className="nextbutton" size="lg" variant="dark">Next</Button>{' '}
+            <Button href={props.prev} className="tw-mx-auto" size="lg" variant="dark">Prev</Button>{' '}
+            <Button href={props.next} className="tw-mx-auto" size="lg" variant="dark">Next</Button>{' '}
             <br/>
         </div>
     );

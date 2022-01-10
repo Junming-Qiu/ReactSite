@@ -6,7 +6,7 @@ import NextButton from '../components/nextButton.js';
 export default function Home() {
   
   return (
-    <div className="bkground">
+    <div>
         <NavbarMine name="Junming"/>
         <BioCard/>
         <NextButton prev="/projects" next="/skills"/>

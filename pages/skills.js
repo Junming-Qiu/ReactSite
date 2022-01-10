@@ -1,7 +1,10 @@
 import NavbarMine from '../components/navbar.js';
 import DefaultCard from '../components/defaultcard.js';
-import SkillsInfo from '../public/skills.json';
 import NextButton from '../components/nextButton.js';
+import { Chart } from 'chart.js/auto'
+import { Radar } from "react-chartjs-2";
+
+import SkillsInfo from '../public/skills.json';
 
 var data = {
         labels: ['Python', 'HTML/CSS', 'JavaScript', 'SQL', 'C++/C/Arduino'],
@@ -17,7 +20,6 @@ var data = {
                 'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
-
             ],
             borderWidth: 2
 
@@ -25,12 +27,35 @@ var data = {
     ]
 }
 
-
 function Skills(props){
+    var graph = 
+    <Radar 
+        className="mt-4"
+        data={data}
+        width={500}
+        height={500}
+        options={{
+            responsive: true,
+            maintainAspectRatio: false,
+            scale: {
+                angleLines: {
+                    display: false
+                },
+                suggestedMin: 0,
+                suggestedMax: 6,
+                ticks : {
+                    precision : 0
+                }
+            }
+    
+        }}
+    />
+
+
     return (
         <div>
             <NavbarMine name="Junming"/>
-            <DefaultCard imgs={[data]} title="Skills" info={SkillsInfo} />
+            <DefaultCard content={[graph]} title="Skills" info={SkillsInfo} />
             <NextButton prev="/" next="/experience"/>
             <br/><br/>
         </div>
