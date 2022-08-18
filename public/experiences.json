@@ -9,6 +9,18 @@
                 "Managed software upgrades in the NYU system, compatibility issues, as well as setting up hardware on-campus."
             ],
         "when" : "August 2020 - Present",
+        "links" : [] 
+    },
+    {
+        "name" : "Technology Intern",
+        "where" : "Charlotte, North Carolina",
+        "desc" : 
+            [
+                "Contributed to the observability platform by standardizing metric collection, dashboards, and data sources. Completed refactoring project to standardize data sources and reduce memory load on Prometheus servers using regex filters.",
+                "Involved with provisioning, deploying, and documenting a new application which serves clients. The Java application was configured and deployed using WebLogic. Process was repeated for various environments in the CI/CD pipeline.",
+                "Created a web app using React which served as a game to promote youth retirement to compete in TIAA’s Innovation Challenge Hackathon. Presented the project to a panel of judges along with a 3 minute pitch and video advertising the project."
+            ],
+        "when" : "June 2022 - August 2022",
         "links" : []
     },
 
