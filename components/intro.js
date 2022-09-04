@@ -1,5 +1,6 @@
 import s from "../styles/intro.module.css"
 import Image from "next/dist/client/image"
+import Link from "next/link"
 
 export default function Intro(props){
     return (
@@ -27,10 +28,13 @@ export default function Intro(props){
                                 <Image src="/linkedinlogo.png" width={50} height={50} alt=""/>
                                 <p>LinkedIn</p>
                             </a>
-                            <a className={s.socialitem} href="/resume" target="blank" rel="noreferrer">
-                                <Image src="/documentlogo.png" width={50} height={50} alt=""/>
-                                <p>Download Resume</p>
-                            </a>
+                            <Link passHref href="/resume">
+                                <a className={s.socialitem} target="_blank" rel="noreferrer noopener">
+                                    <Image src="/documentlogo.png" width={50} height={50} alt=""/>
+                                    <p>Download Resume</p>
+                                </a>
+                                
+                            </Link>
                             <a className={s.socialitem} href="mailto:jq741@nyu.edu">
                                 <Image src="/emaillogo.png" width={50} height={50} alt=""/>
                                 <p>jq741@nyu.edu</p>
