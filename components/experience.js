@@ -1,8 +1,7 @@
-import NavbarMine from '../components/navbar.js';
+//import NavbarMine from './navbar.js';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import NextButton from '../components/nextButton.js';
-import TimeLine from '../components/timeline.js';
+import TimeLine from './timeline.js';
 import {MobileView, BrowserView} from 'react-device-detect';
 
 import ExperienceInfo from '../public/experiences.json';
@@ -12,7 +11,6 @@ function Experience(){
 
     return (
         <div>
-            <NavbarMine name="Junming"/>
 
                 <div className="card">
                     <div className="card-header">
@@ -72,8 +70,7 @@ function Experience(){
                     </MobileView>    
                 </div>
   
-            <NextButton prev="/skills" next="/projects"/>
-            <br/><br/>
+
         </div>
     );
 }

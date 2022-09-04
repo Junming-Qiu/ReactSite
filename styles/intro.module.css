@@ -53,7 +53,7 @@
 }
 .card-date {
 	flex: 0.3;
-	font-size: small;
+	font-size: medium;
 	margin-top: 0;
 }
 
@@ -68,13 +68,37 @@
 	padding: 1%;
 }
 
-.image-gallery {
+.cardbody {
+	text-align: center;
+}
+
+.socials {
 	padding: 1%;
+	display: flex;
+	justify-content: center;
+	gap: 5%;
 }
 
-.carousel {
-	background-color: black;
-	font-size: 1vw;
+.socialitem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	font-size: medium;
+	color: black;
+	background-color: rgba(39, 39, 39, 0.1);
+	border-radius: 10px;
+	box-shadow: 0px 1px rgba(39, 39, 39, 0.2);
+	gap: 3%;
+}
+
+.socialitem:link{
+	text-decoration: none;
 }
 
 
+.socialitem:hover {
+	transition: 200ms;
+	border: solid;
+	border-color: tomato;
+}

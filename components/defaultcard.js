@@ -12,7 +12,7 @@ function DefaultCard(props){
                     </div>
                     <div className="card-title-group">
                     <h5 className="card-title">{props.title}</h5>
-                    <div className="card-date">Computer Science Student at NYU Tandon School of Engineering</div>
+                    <div className="card-date">{props.desc}</div>
                     </div>
                 </div>
 

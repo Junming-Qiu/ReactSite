@@ -1,16 +1,25 @@
 import NavbarMine from '../components/navbar.js';
 import BioCard from '../components/biocard.js';
-import NextButton from '../components/nextButton.js';
-
+import Skills from '../components/skills.js';
+import Experience from '../components/experience.js';
+import Projects from '../components/projects.js';
+import Intro from '../components/intro.js';
+import { Title } from 'chart.js';
 
 export default function Home() {
   
   return (
     <div>
-        <NavbarMine name="Junming"/>
+        <title>Junming's Portfolio</title>
+        <NavbarMine name="Junming Qiu"/>
+        <br/><br/><br/>
+        <Intro/>
+        <Projects/>
+        <Skills/>
+        <Experience/>
         <BioCard/>
-        <NextButton prev="/projects" next="/skills"/>
-        <br/><br/>
+        
+        <br/>
     </div>
  
   )

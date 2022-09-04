@@ -77,20 +77,22 @@ function BioCard(props){
                         <p>
                             {bio.data3}
                         </p>
-                        <h6>
-                            Contact Me: <Button variant="link" onClick={() => {
-                                navigator.clipboard.writeText(bio.contact)
-                                setCopied(true)
-                                
-                                }}>
-                                            {bio.contact}
-                                        </Button>
-                        </h6>
-                        {copied ? <div>Copied</div> : <div/>}
+                        <div className="tw-flex">
+                            <h6>
+                                Contact Me: <Button variant="link" onClick={() => {
+                                    navigator.clipboard.writeText(bio.contact)
+                                    setCopied(true)
+                                    
+                                    }}>
+                                                {bio.contact}
+                                            </Button>
+                            </h6>
+                            {copied ? <div><p className="tw-border-4 tw-w-24 tw-text-center">Copied</p></div> : <div/>}
+                        </div>
                     </Row>
                 </Container>
                 </div>
-
+            <br/> 
         </div>
     );
 }

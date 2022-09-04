@@ -2,15 +2,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import Button from 'react-bootstrap/Button';
 
 function NavbarMine(props){
     //console.log(props)
     return(
         <div>
-        <Navbar bg="" expand="lg">
+        <Navbar bg="" expand="lg" fixed="top" className='tw-pt-2 tw-bg-amber-100'>
           <Container>
             <Navbar.Brand href="/">{props.name}</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -27,15 +24,6 @@ function NavbarMine(props){
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
-            {/* <Form className="d-flex">
-              <FormControl
-                type="search"
-                placeholder="Search"
-                className="mr-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-danger">Search</Button>
-            </Form> */}
           </Container>
         </Navbar>
         </div>

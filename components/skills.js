@@ -1,6 +1,5 @@
-import NavbarMine from '../components/navbar.js';
-import DefaultCard from '../components/defaultcard.js';
-import NextButton from '../components/nextButton.js';
+import DefaultCard from './defaultcard.js';
+import NextButton from './nextButton.js';
 import { Chart } from 'chart.js/auto'
 import { Radar } from "react-chartjs-2";
 
@@ -54,10 +53,7 @@ function Skills(props){
 
     return (
         <div>
-            <NavbarMine name="Junming"/>
-            <DefaultCard content={[graph]} title="Skills" info={SkillsInfo} />
-            <NextButton prev="/" next="/experience"/>
-            <br/><br/>
+            <DefaultCard content={[graph]} desc={"Technical and Soft Skills"} title="Skills" info={SkillsInfo} />
         </div>
     )
 }
