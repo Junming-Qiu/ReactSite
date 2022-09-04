@@ -11,15 +11,15 @@ import {useState} from 'react';
 function BioCard(props){
     const [copied, setCopied] = useState(false)
     return(
-        <div>
+        <div id="biocard">
             <div className="card">
                 <div className="card-header">
                     <div className="profile">
-                    <span className="letter">Ju</span>
+                    <span className="letter">A</span>
                     </div>
                     <div className="card-title-group">
-                    <h5 className="card-title">Junming Qiu</h5>
-                    <div className="card-date">Computer Science Student at NYU Tandon School of Engineering</div>
+                    <h5 className="card-title">About Me</h5>
+                    <div className="card-date">Who I Am</div>
                     </div>
                 </div>
 
@@ -30,6 +30,8 @@ function BioCard(props){
                                 src={profilepic}       
                                 alt="Profile Pic"
                                 className="d-block w-100"
+                                height={350}
+                                width={500}
                             />
                             {/* <Carousel className="carousel">
                                 <Carousel.Item interval={100000}>
@@ -67,7 +69,6 @@ function BioCard(props){
                             </Carousel> */}
                         </Col>
                         <Col className="card-text">
-                            <h2>About Me</h2>
                             {bio.data1}
                             <br/><br/>
                             {bio.data2}

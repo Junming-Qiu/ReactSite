@@ -5,7 +5,7 @@ export default function Intro(props){
     return (
 
 
-        <div>
+        <div id="intro">
             <div className={s.card}>
                 <div className="card-header">
                     <div className={s.profile}>

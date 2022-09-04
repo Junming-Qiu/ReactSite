@@ -10,12 +10,12 @@ import { Container } from 'react-bootstrap';
 function Experience(){
 
     return (
-        <div>
+        <div id="experience">
 
                 <div className="card">
                     <div className="card-header">
                         <div className="profile">
-                        <span className="letter">Ju</span>
+                        <span className="letter">E</span>
                         </div>
                         <div className="card-title-group">
                         <h5 className="card-title">Experiences</h5>

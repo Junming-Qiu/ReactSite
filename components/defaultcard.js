@@ -8,7 +8,7 @@ function DefaultCard(props){
             <div className="card">
                 <div className="card-header">
                     <div className="profile">
-                    <span className="letter">Ju</span>
+                    <span className="letter">{props.profile}</span>
                     </div>
                     <div className="card-title-group">
                     <h5 className="card-title">{props.title}</h5>

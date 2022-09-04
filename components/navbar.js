@@ -9,14 +9,14 @@ function NavbarMine(props){
         <div>
         <Navbar bg="" expand="lg" fixed="top" className='tw-pt-2 tw-bg-amber-100'>
           <Container>
-            <Navbar.Brand href="/">{props.name}</Navbar.Brand>
+            <Navbar.Brand href="#intro">{props.name}</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="/skills">Skills</Nav.Link>
-                <Nav.Link href="/experience">Experience</Nav.Link>
-                <Nav.Link href="/projects">Projects</Nav.Link>
-                <Nav.Link href="/">Contact Me</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
+                <Nav.Link href="#skills">Skills</Nav.Link>
+                <Nav.Link href="#experience">Experience</Nav.Link>
+                <Nav.Link href="#biocard">Contact Me</Nav.Link>
                 <NavDropdown title="Outside Links" id="basic-nav-dropdown">
                   <NavDropdown.Item rel="noreferrer" target="_blank" href="https://github.com/Junming-Qiu">Github</NavDropdown.Item>
                 <NavDropdown.Divider/>

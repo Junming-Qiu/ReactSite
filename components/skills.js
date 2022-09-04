@@ -52,8 +52,8 @@ function Skills(props){
 
 
     return (
-        <div>
-            <DefaultCard content={[graph]} desc={"Technical and Soft Skills"} title="Skills" info={SkillsInfo} />
+        <div id="skills">
+            <DefaultCard content={[graph]} desc={"Technical and Soft Skills"} title="Skills" info={SkillsInfo} profile="S"/>
         </div>
     )
 }
