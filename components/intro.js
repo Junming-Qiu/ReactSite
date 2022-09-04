@@ -12,7 +12,7 @@ export default function Intro(props){
                         <span className={s.letter}>Ju</span>
                     </div>
                     <div className={s["card-title-group"]}>
-                        <h5 className={[s["card-title"], "card-title"]}>Junming Qiu's Portfolio</h5>
+                        <h5 className={[s["card-title"], "card-title"]}>Junming Qiu&apos;s Portfolio</h5>
                         <div className={s["card-date"]}>Computer Science Student at NYU Tandon School of Engineering | Class of 2023</div>
                     </div>
                 </div>

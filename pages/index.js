@@ -10,7 +10,7 @@ export default function Home() {
   
   return (
     <div>
-        <title>Junming's Portfolio</title>
+        <title>Junming&apos;s Portfolio</title>
         <NavbarMine name="Junming Qiu"/>
         <br/><br/><br/>
         <Intro/>
